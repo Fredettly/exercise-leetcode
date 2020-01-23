@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * Created by xwx_ on 2020/1/21
  */
-public class Two_Sum {
+public class two_sum {
 
     //     static int[] twoSum(int[] nums, int target) {
 //        for (int i = 0; i < nums.length; i++) {
