@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by xwx_ on 2020/1/21
@@ -19,19 +18,20 @@ public class two_sum {
 //    }
 
     public static int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>((int) ((float) nums.length / 0.75F + 1.0F));
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            if (map.containsKey(target - nums[i])) {
-                return new int[]{map.get(target - nums[i]), i};
+            if (map.containsKey(nums[i])) {
+                return new int[]{map.get(nums[i]), i};
             }
-            map.put(nums[i], i);
+            map.put(target - nums[i], i);
         }
         throw new IllegalArgumentException("No two sum value");
     }
 
+
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
-        int target = 26;
+        int target = 9;
         System.out.println(Arrays.toString(twoSum(nums, target)));
     }
 }

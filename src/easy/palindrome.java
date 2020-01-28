@@ -15,7 +15,7 @@ public class palindrome {
             temp = temp * 10 + x % 10;
             x /= 10;
         }
-        return theNum == temp ? true : false;
+        return theNum == temp;
     }
     public static void main(String[] args){
         int x = 1234321;
