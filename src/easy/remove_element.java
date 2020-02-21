@@ -5,9 +5,10 @@ public class remove_element {
     public static int removeElement(int[] nums, int val) {
         int i = 0;
         for (int j = 0; j < nums.length; j++) {
-            if (nums[i] != val)
+            if (nums[j] != val) {
                 nums[i] = nums[j];
-            i++;
+                i++;
+            }
         }
         return i;
     }
