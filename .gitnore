@@ -17,7 +17,7 @@ logs/
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml
+*.imlfd
 *.ipr
 
 ### NetBeans ###
