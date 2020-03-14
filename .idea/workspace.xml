@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/majority_element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/middle/longest_increasing_subsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/longest_increasing_subsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,17 +28,35 @@
       <file leaf-file-name="add_binary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/add_binary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="361">
               <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="majority_element.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="majority_element.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/majority_element.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="114">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitnore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitnore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longest_increasing_subsequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/middle/longest_increasing_subsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -106,6 +125,7 @@
         <option value="$PROJECT_DIR$/.gitnore" />
         <option value="$PROJECT_DIR$/src/easy/add_binary.java" />
         <option value="$PROJECT_DIR$/src/easy/majority_element.java" />
+        <option value="$PROJECT_DIR$/src/middle/longest_increasing_subsequence.java" />
       </list>
     </option>
   </component>
@@ -131,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,13 +167,14 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.majority_element">
+  <component name="RunManager" selected="Application.longest_increasing_subsequence">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -189,10 +209,16 @@
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="add_two_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="add_two_numbers" />
+    <configuration name="longest_increasing_subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="middle.longest_increasing_subsequence" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="middle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="majority_element" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="majority_element" />
@@ -254,19 +280,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.add_two_numbers" />
       <item itemvalue="Application.search_insert" />
       <item itemvalue="Application.sorted_merge_lcci" />
       <item itemvalue="Application.add_binary" />
       <item itemvalue="Application.majority_element" />
+      <item itemvalue="Application.longest_increasing_subsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.longest_increasing_subsequence" />
         <item itemvalue="Application.majority_element" />
         <item itemvalue="Application.add_binary" />
         <item itemvalue="Application.sorted_merge_lcci" />
         <item itemvalue="Application.search_insert" />
-        <item itemvalue="Application.add_two_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -302,16 +328,16 @@
       <workItem from="1583294549120" duration="7544000" />
       <workItem from="1583584525281" duration="1642000" />
       <workItem from="1583671054732" duration="896000" />
-      <workItem from="1584093208626" duration="1293000" />
+      <workItem from="1584093208626" duration="1592000" />
+      <workItem from="1584186011707" duration="3487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69331000" />
+    <option name="totallyTimeSpent" value="73117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -321,8 +347,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49769586" visible="true" weight="0.2979042" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.32735425" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" weight="0.2979042" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" visible="true" weight="0.3248503" />
       <window_info id="Designer" order="4" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24961598" />
       <window_info anchor="right" id="Database" order="2" />
@@ -356,29 +382,14 @@
           </properties>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/easy/majority_element.java</url>
-          <line>4</line>
-          <properties class="majority_element" method="majorityElement">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="33" />
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/sorted_merge_lcci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/two_sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -696,24 +707,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitnore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/add_binary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="361">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/majority_element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="114">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/longest_increasing_subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitnore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
