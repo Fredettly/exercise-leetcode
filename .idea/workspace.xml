@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/compress_string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/valid_parentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/remove_element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/remove_element.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/easy/majority_element.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -28,16 +29,29 @@
         <entry file="file://$PROJECT_DIR$/src/easy/sum_zero.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compress_string.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="compress_string.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/compress_string.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="447">
+              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valid_parentheses.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/valid_parentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/easy/roman_int.java" />
         <option value="$PROJECT_DIR$/src/easy/sqrtx.java" />
         <option value="$PROJECT_DIR$/src/easy/longest_common_prefix.java" />
-        <option value="$PROJECT_DIR$/src/easy/remove_element.java" />
         <option value="$PROJECT_DIR$/src/easy/two_sum.java" />
         <option value="$PROJECT_DIR$/src/easy/climb_stairs.java" />
         <option value="$PROJECT_DIR$/src/easy/add_two_numbers.java" />
@@ -91,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/easy/majority_element.java" />
         <option value="$PROJECT_DIR$/src/easy/sum_zero.java" />
         <option value="$PROJECT_DIR$/src/easy/compress_string.java" />
+        <option value="$PROJECT_DIR$/src/easy/remove_element.java" />
+        <option value="$PROJECT_DIR$/src/easy/valid_parentheses.java" />
       </list>
     </option>
   </component>
@@ -116,8 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +153,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,13 +180,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.compress_string">
+  <component name="RunManager" selected="Application.valid_parentheses">
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="add_binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="add_binary" />
-      <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="compress_string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -179,19 +189,13 @@
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="longest_increasing_subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="middle.longest_increasing_subsequence" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="middle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="majority_element" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="majority_element" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="remove_element" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="remove_element" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -204,6 +208,11 @@
       <option name="MAIN_CLASS_NAME" value="two_sum" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="valid_parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="valid_parentheses" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -245,19 +254,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.add_binary" />
       <item itemvalue="Application.majority_element" />
-      <item itemvalue="Application.longest_increasing_subsequence" />
       <item itemvalue="Application.sum_zero" />
       <item itemvalue="Application.compress_string" />
+      <item itemvalue="Application.remove_element" />
+      <item itemvalue="Application.valid_parentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.valid_parentheses" />
+        <item itemvalue="Application.remove_element" />
         <item itemvalue="Application.compress_string" />
         <item itemvalue="Application.sum_zero" />
         <item itemvalue="Application.majority_element" />
-        <item itemvalue="Application.longest_increasing_subsequence" />
-        <item itemvalue="Application.add_binary" />
       </list>
     </recent_temporary>
   </component>
@@ -296,15 +305,17 @@
       <workItem from="1584093208626" duration="1592000" />
       <workItem from="1584186011707" duration="3929000" />
       <workItem from="1584274526543" duration="2643000" />
-      <workItem from="1584359895754" duration="1969000" />
+      <workItem from="1584359895754" duration="2033000" />
+      <workItem from="1584445773109" duration="3521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78171000" />
+    <option name="totallyTimeSpent" value="81756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -315,15 +326,15 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" weight="0.2979042" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" visible="true" weight="0.3248503" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.3248503" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24961598" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24961598" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39670658" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39670658" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
@@ -349,21 +360,20 @@
           </properties>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/valid_parentheses.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="36" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/search_insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/two_sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -617,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/remove_element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/roman_int.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
@@ -675,24 +678,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitnore" />
-    <entry file="file://$PROJECT_DIR$/src/easy/majority_element.java">
+    <entry file="file://$PROJECT_DIR$/src/easy/remove_element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="247">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/sum_zero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/compress_string.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="447">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/majority_element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/valid_parentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
