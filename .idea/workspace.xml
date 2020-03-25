@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/middle_of_the_linked_list.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/QuickSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/surface_area_of_3d_shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/the_masseuse_lcci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,15 +37,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middle_of_the_linked_list.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="middle_of_the_linked_list.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/middle_of_the_linked_list.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-              <folding>
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1283">
+              <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="the_masseuse_lcci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/the_masseuse_lcci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="surface_area_of_3d_shapes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/surface_area_of_3d_shapes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -106,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/easy/get_least_numbers.java" />
         <option value="$PROJECT_DIR$/src/test/QuickSearch.java" />
         <option value="$PROJECT_DIR$/src/easy/middle_of_the_linked_list.java" />
+        <option value="$PROJECT_DIR$/src/easy/the_masseuse_lcci.java" />
+        <option value="$PROJECT_DIR$/src/easy/surface_area_of_3d_shapes.java" />
       </list>
     </option>
   </component>
@@ -136,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +176,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.middle_of_the_linked_list">
+  <component name="RunManager" selected="Application.surface_area_of_3d_shapes">
     <configuration name="QuickSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.QuickSearch" />
       <module name="leetcode" />
@@ -205,18 +221,18 @@
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="longest_palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longest_palindrome" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="middle_of_the_linked_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="middle_of_the_linked_list" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palindrome" />
+    <configuration name="surface_area_of_3d_shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="surface_area_of_3d_shapes" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="the_masseuse_lcci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="the_masseuse_lcci" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -265,19 +281,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.palindrome" />
-      <item itemvalue="Application.longest_palindrome" />
       <item itemvalue="Application.get_least_numbers" />
       <item itemvalue="Application.QuickSearch" />
       <item itemvalue="Application.middle_of_the_linked_list" />
+      <item itemvalue="Application.the_masseuse_lcci" />
+      <item itemvalue="Application.surface_area_of_3d_shapes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.surface_area_of_3d_shapes" />
+        <item itemvalue="Application.the_masseuse_lcci" />
         <item itemvalue="Application.middle_of_the_linked_list" />
         <item itemvalue="Application.QuickSearch" />
         <item itemvalue="Application.get_least_numbers" />
-        <item itemvalue="Application.longest_palindrome" />
-        <item itemvalue="Application.palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -327,12 +343,14 @@
       <workItem from="1584850843523" duration="1390000" />
       <workItem from="1584880130631" duration="3614000" />
       <workItem from="1584937457350" duration="1915000" />
-      <workItem from="1584965079950" duration="3805000" />
+      <workItem from="1584965079950" duration="4114000" />
+      <workItem from="1585023714155" duration="3926000" />
+      <workItem from="1585106275992" duration="1772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109178000" />
+    <option name="totallyTimeSpent" value="115185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
@@ -346,10 +364,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" weight="0.2979042" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.32286996" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49769586" visible="true" weight="0.2979042" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.3213752" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24961598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24961598" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,28 +385,28 @@
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49769586" visible="true" weight="0.2979042" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24961598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49769586" visible="true" weight="0.2979042" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32934132" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info id="Designer" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32934132" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38023952" />
-      <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.32286996" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50230414" side_tool="true" weight="0.2979042" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -403,24 +421,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="53" />
+      <option name="time" value="55" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/roman_int.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/longest_common_prefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -741,12 +745,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/middle_of_the_linked_list.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1283">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/the_masseuse_lcci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/surface_area_of_3d_shapes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
         </state>
       </provider>
     </entry>
