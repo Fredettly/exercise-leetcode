@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/XofaKindinaDeckofCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/available_captures_for_rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/sort_array_by_parity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/house_robber_ii.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/XofaKindinaDeckofCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/XofaKindinaDeckofCards.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,21 +23,35 @@
       <file leaf-file-name="available_captures_for_rook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/available_captures_for_rook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="1216">
               <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XofaKindinaDeckofCards.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XofaKindinaDeckofCards.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/XofaKindinaDeckofCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341">
-              <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-              <folding>
-                <element signature="e#1238#1239#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="447">
+              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="house_robber_ii.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/middle/house_robber_ii.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sort_array_by_parity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/sort_array_by_parity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -101,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/easy/surface_area_of_3d_shapes.java" />
         <option value="$PROJECT_DIR$/src/easy/available_captures_for_rook.java" />
         <option value="$PROJECT_DIR$/src/easy/XofaKindinaDeckofCards.java" />
+        <option value="$PROJECT_DIR$/src/middle/house_robber_ii.java" />
+        <option value="$PROJECT_DIR$/src/easy/sort_array_by_parity.java" />
       </list>
     </option>
   </component>
@@ -131,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,11 +167,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -180,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XofaKindinaDeckofCards">
+  <component name="RunManager" selected="Application.sort_array_by_parity">
     <configuration name="XofaKindinaDeckofCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="XofaKindinaDeckofCards" />
       <module name="leetcode" />
@@ -194,18 +217,24 @@
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="middle_of_the_linked_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="middle_of_the_linked_list" />
+    <configuration name="house_robber_ii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="middle.house_robber_ii" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="middle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="sort_array_by_parity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort_array_by_parity" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="surface_area_of_3d_shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="surface_area_of_3d_shapes" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="the_masseuse_lcci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="the_masseuse_lcci" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -254,19 +283,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.middle_of_the_linked_list" />
-      <item itemvalue="Application.the_masseuse_lcci" />
       <item itemvalue="Application.surface_area_of_3d_shapes" />
       <item itemvalue="Application.available_captures_for_rook" />
       <item itemvalue="Application.XofaKindinaDeckofCards" />
+      <item itemvalue="Application.house_robber_ii" />
+      <item itemvalue="Application.sort_array_by_parity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sort_array_by_parity" />
+        <item itemvalue="Application.house_robber_ii" />
         <item itemvalue="Application.XofaKindinaDeckofCards" />
         <item itemvalue="Application.available_captures_for_rook" />
         <item itemvalue="Application.surface_area_of_3d_shapes" />
-        <item itemvalue="Application.the_masseuse_lcci" />
-        <item itemvalue="Application.middle_of_the_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -320,12 +349,13 @@
       <workItem from="1585023714155" duration="3926000" />
       <workItem from="1585106275992" duration="2576000" />
       <workItem from="1585187637631" duration="4978000" />
-      <workItem from="1585287485908" duration="937000" />
+      <workItem from="1585287485908" duration="1769000" />
+      <workItem from="1585385038571" duration="2083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121904000" />
+    <option name="totallyTimeSpent" value="124819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
@@ -360,29 +390,29 @@
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" weight="0.2979042" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24961598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" visible="true" weight="0.3203593" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info id="Designer" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32934132" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38023952" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" visible="true" weight="0.3203593" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50230414" side_tool="true" weight="0.2979042" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,20 +430,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/two_sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/roman_int.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/reverse_integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -718,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/available_captures_for_rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-279">
@@ -732,14 +741,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/available_captures_for_rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/XofaKindinaDeckofCards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-          <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="447">
+          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/house_robber_ii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/sort_array_by_parity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
         </state>
       </provider>
     </entry>
