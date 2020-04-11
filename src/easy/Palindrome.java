@@ -2,7 +2,7 @@
  * Created by xwx_ on 2020/1/26
  */
 public class Palindrome {
-    public static boolean isPalindrome(int x){
+    private static boolean isPalindrome(int x){
         int theNum = x ;
         if (x == 0){
             return true;
@@ -18,7 +18,7 @@ public class Palindrome {
         return theNum == temp;
     }
     public static void main(String[] args){
-        int x = 1234321;
+        int x = 102343201;
         System.out.println(isPalindrome(x));
     }
 }
