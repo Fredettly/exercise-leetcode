@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/CreateTargetArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middle/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/QSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/CreateTargetArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/CreateTargetArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test/QuickSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/QuickSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,35 +22,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenerateParentheses.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/middle/GenerateParentheses.java">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="152">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#1085#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateTargetArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/CreateTargetArray.java">
+      <file leaf-file-name="QSTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/QSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="581">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Palindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/Palindrome.java">
+      <file leaf-file-name="AddBinary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/AddBinary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="-39">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +129,9 @@
         <option value="$PROJECT_DIR$/src/middle/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/easy/CreateTargetArrayGivenOrder.java" />
         <option value="$PROJECT_DIR$/src/easy/CreateTargetArray.java" />
+        <option value="$PROJECT_DIR$/src/test/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/test/QSTest.java" />
+        <option value="$PROJECT_DIR$/src/easy/AddBinary.java" />
       </list>
     </option>
   </component>
@@ -145,7 +149,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1320" />
     <option name="height" value="784" />
@@ -158,8 +162,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +224,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateTargetArray">
+  <component name="RunManager" selected="Application.AddBinary">
+    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddBinary" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateTargetArray" />
       <module name="leetcode" />
@@ -237,26 +246,27 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Palindrome" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="SortAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="middle.SortAnArray" />
+    <configuration name="QSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.QSTest" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="middle.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SortArrayByParityII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortArrayByParityII" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.QuickSort" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -306,19 +316,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.SortArrayByParityII" />
-      <item itemvalue="Application.SortAnArray" />
-      <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.GenerateParentheses" />
       <item itemvalue="Application.CreateTargetArray" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.QSTest" />
+      <item itemvalue="Application.AddBinary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddBinary" />
+        <item itemvalue="Application.QSTest" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.CreateTargetArray" />
         <item itemvalue="Application.GenerateParentheses" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.SortAnArray" />
-        <item itemvalue="Application.SortArrayByParityII" />
       </list>
     </recent_temporary>
   </component>
@@ -384,26 +394,28 @@
       <workItem from="1586055772193" duration="8381000" />
       <workItem from="1586326264574" duration="2461000" />
       <workItem from="1586490978948" duration="2320000" />
-      <workItem from="1586578476888" duration="540000" />
+      <workItem from="1586578476888" duration="1791000" />
+      <workItem from="1587004481391" duration="3610000" />
+      <workItem from="1587093441750" duration="1649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156637000" />
+    <option name="totallyTimeSpent" value="163147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50230414" side_tool="true" weight="0.2979042" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" weight="0.2979042" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.3203593" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.31988043" />
       <window_info id="Designer" order="4" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24961598" />
       <window_info anchor="right" id="Database" order="2" />
@@ -411,7 +423,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41467065" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41467065" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -419,35 +431,7 @@
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32934132" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" visible="true" weight="0.2979042" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24961598" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.3203593" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32934132" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38023952" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50230414" side_tool="true" weight="0.2979042" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -457,20 +441,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/AddBinary.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="76" />
+      <option name="time" value="81" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -593,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/AddBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-279">
@@ -618,13 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/QuickSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -748,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/middle/SortAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/middle/MaximumNestingParenthesesStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -787,18 +751,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/CreateTargetArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="475">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/SortAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/QSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/AddBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

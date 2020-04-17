@@ -1,12 +1,21 @@
+/*
 package test;
 
 import java.util.Arrays;
 
+*/
 /**
  * Created by xwx_ on 2020/3/22
- */
-public class QuickSearch {
-    void quick_sort(int s[], int l, int r) {
+ *//*
+
+public class QuickSort {
+    public void solution(int[] s) {
+        int l = 0;
+        int r = s.length - 1;
+        quickSort(s, l, r);
+    }
+
+    private void quickSort(int s[], int l, int r) {
         if (l < r) {
             //Swap(s[l], s[(l + r) / 2]); //将中间的这个数和第一个数交换
             int i = l, j = r, x = s[l];
@@ -22,17 +31,17 @@ public class QuickSearch {
                     s[j--] = s[i];
             }
             s[i] = x;
-            quick_sort(s, l, i - 1); // 递归调用
-            quick_sort(s, i + 1, r);
+            quickSort(s, l, i - 1); // 递归调用
+            quickSort(s, i + 1, r);
         }
     }
 
     public static void main(String[] args) {
         int[] s = {4, 5, 6, 3, 2, 1};
-        int l = 0;
-        int r = 5;
-        QuickSearch quickSearch = new QuickSearch();
-        quickSearch.quick_sort(s, l, r);
+//        int l = 0;
+//        int r = 5;
+        new QuickSort().solution(s);
         System.out.println(Arrays.toString(s));
     }
 }
+*/
