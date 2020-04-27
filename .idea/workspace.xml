@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/QSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/draft/df_Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middle/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/QSTest_I.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/CreateTargetArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/CreateTargetArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test/QuickSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/AddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/QuickSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/AvailableCapturesForRook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/AvailableCapturesForRook.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,34 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/QuickSort.java">
+      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/middle/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#1085#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-551">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QSTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/QSTest.java">
+      <file leaf-file-name="df_Permutations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/draft/df_Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddBinary.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/AddBinary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="414">
+              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,10 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/easy/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/easy/twoSum.java" />
-        <option value="$PROJECT_DIR$/src/easy/Solution.java" />
-        <option value="$PROJECT_DIR$/src/easy/Two_Sum.java" />
         <option value="$PROJECT_DIR$/src/easy/reverse_integer.java" />
         <option value="$PROJECT_DIR$/src/easy/isPalindrome.java" />
         <option value="$PROJECT_DIR$/src/easy/palindrome.java" />
@@ -132,6 +115,10 @@
         <option value="$PROJECT_DIR$/src/test/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/test/QSTest.java" />
         <option value="$PROJECT_DIR$/src/easy/AddBinary.java" />
+        <option value="$PROJECT_DIR$/src/easy/AvailableCapturesForRook.java" />
+        <option value="$PROJECT_DIR$/src/test/QSTest_I.java" />
+        <option value="$PROJECT_DIR$/src/middle/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/draft/df_Permutations.java" />
       </list>
     </option>
   </component>
@@ -149,7 +136,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1320" />
     <option name="height" value="784" />
@@ -162,8 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,7 +165,7 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="draft" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -188,16 +173,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +191,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,19 +205,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddBinary">
+  <component name="RunManager" selected="Application.df_Permutations">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddBinary" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateTargetArray" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="middle.GenerateParentheses" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="middle.Permutations" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -257,8 +233,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.QuickSort" />
+    <configuration name="QSTest_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.QSTest_I" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -270,6 +246,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="df_Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="draft.df_Permutations" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="draft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="two_sum" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="TwoSum" />
@@ -316,19 +303,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.GenerateParentheses" />
-      <item itemvalue="Application.CreateTargetArray" />
-      <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.QSTest" />
       <item itemvalue="Application.AddBinary" />
+      <item itemvalue="Application.QSTest_I" />
+      <item itemvalue="Application.Permutations" />
+      <item itemvalue="Application.df_Permutations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.df_Permutations" />
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.QSTest_I" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.QSTest" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.CreateTargetArray" />
-        <item itemvalue="Application.GenerateParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -396,34 +383,38 @@
       <workItem from="1586490978948" duration="2320000" />
       <workItem from="1586578476888" duration="1791000" />
       <workItem from="1587004481391" duration="3610000" />
-      <workItem from="1587093441750" duration="1649000" />
+      <workItem from="1587093441750" duration="2699000" />
+      <workItem from="1587375587539" duration="1553000" />
+      <workItem from="1587697912331" duration="2985000" />
+      <workItem from="1587786396874" duration="1360000" />
+      <workItem from="1587959984852" duration="1311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163147000" />
+    <option name="totallyTimeSpent" value="171406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50230414" side_tool="true" weight="0.2979042" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" weight="0.2979042" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.31988043" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.3188623" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24961598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24961598" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41467065" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41467065" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -431,6 +422,7 @@
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32934132" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.32784432" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,42 +433,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/AddBinary.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="81" />
+      <option name="time" value="83" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -585,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/AvailableCapturesForRook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/SortArrayByParity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -666,13 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
           <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/TheMasseuseLcci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -770,27 +719,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="19">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#1085#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/QSTest_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/AvailableCapturesForRook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="75" column="75" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/QSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="257">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/AddBinary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="181">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/TheMasseuseLcci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middle/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/draft/df_Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
