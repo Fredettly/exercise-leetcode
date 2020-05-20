@@ -11,7 +11,7 @@ public class CompressString {
         StringBuilder res = new StringBuilder();
         char pre = S.charAt(0);
         int times = 1;
-        for (int i = 0; i < S.length(); i++) {
+        for (int i = 1; i < S.length(); i++) {
             char cur = S.charAt(i);
             if (cur == pre) {
                 times++;
@@ -31,6 +31,6 @@ public class CompressString {
     public static void main(String[] args) {
         String S = "aabbbcccdd";
         String S1 = "abbccd";
-        System.out.println(compressString(S1));
+        System.out.println(compressString(S));
     }
 }

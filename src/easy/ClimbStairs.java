@@ -1,17 +1,55 @@
 /**
  * Created by xwx_ on 2020/2/23
  */
-public class ClimbStairs {
-//    public static int climbStairs(int i, int n) {
-//        if (i > n) {
-//            return 0;
-//        }
-//        if (i == n) {
-//            return 1;
-//        }
-//        return climbStairs(i + 1, n) + climbStairs(i + 2, n);
-//    }
 
+/**
+ * 70.爬楼梯
+ *
+ * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+ *
+ * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+ *
+ * 注意：给定 n 是一个正整数。
+ *
+ * 示例 1：
+ *
+ * 输入： 2
+ * 输出： 2
+ * 解释： 有两种方法可以爬到楼顶。
+ * 1.  1 阶 + 1 阶
+ * 2.  2 阶
+ * 示例 2：
+ *
+ * 输入： 3
+ * 输出： 3
+ * 解释： 有三种方法可以爬到楼顶。
+ * 1.  1 阶 + 1 阶 + 1 阶
+ * 2.  1 阶 + 2 阶
+ * 3.  2 阶 + 1 阶
+ *
+ *
+ */
+
+
+
+public class ClimbStairs {
+
+    public int solution(int n) {
+        int i = 0;
+        return climbStairs(i, n);
+    }
+
+    private int climbStairs(int i, int n) {
+        if (i > n) {
+            return 0;
+        }
+        if (i == n) {
+            return 1;
+        }
+        return climbStairs(i + 1, n) + climbStairs(i + 2, n);
+    }
+
+/*
     public static int climbStairs(int n) {
         if (n == 1) {
             return 1;
@@ -25,10 +63,12 @@ public class ClimbStairs {
         }
         return second;
     }
+*/
 
     public static void main(String[] args) {
+        ClimbStairs CS = new ClimbStairs();
         int n = 5;
-        System.out.println(climbStairs(n));
+        System.out.println(CS.solution(n));
     }
 }
 

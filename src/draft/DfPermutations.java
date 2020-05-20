@@ -1,4 +1,3 @@
-package draft;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -8,7 +7,7 @@ import java.util.List;
 /**
  * Created by xwx_ on 2020/4/27
  */
-public class df_Permutations {
+public class DfPermutations {
     public List<List<Integer>> permute(int[] nums) {
         //新建res数组列表
         List<List<Integer>> res = new ArrayList<>();
@@ -53,8 +52,8 @@ public class df_Permutations {
     }
 
     public static void main(String[] args) {
-        df_Permutations solution = new df_Permutations();
-        int[] nums = {1, 2, 3, 4};
+        DfPermutations solution = new DfPermutations();
+        int[] nums = {1, 2, 3};
         List<List<Integer>> res = solution.permute(nums);
         for (List<Integer> list : res) {
             System.out.println(list);
