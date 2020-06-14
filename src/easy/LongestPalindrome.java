@@ -2,6 +2,9 @@
  * Created by xwx_ on 2020/3/19
  */
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.
  *
@@ -23,7 +26,7 @@
  */
 
 
-public class longest_palindrome {
+public class LongestPalindrome {
     public int longestPalindrome(String s) {
         int[] counter = new int[58];
         for (char c : s.toCharArray()) {
@@ -37,7 +40,7 @@ public class longest_palindrome {
     }
     public static void main(String[] args) {
         String s = "abccccdd";
-        longest_palindrome palindrome = new longest_palindrome();
+        LongestPalindrome palindrome = new LongestPalindrome();
         int i = palindrome.longestPalindrome(s);
         System.out.println(i);
     }
