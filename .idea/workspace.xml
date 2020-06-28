@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FindRepeatNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/MaxSlidingWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/longest_palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/draft/DfAddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/draft/DfAddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/longest_palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/DfAddBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LastRemaining.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/LastRemaining.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/LastRemaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/LastRemaining.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,17 +26,23 @@
     <SUITE FILE_PATH="coverage/leetcode$get_least_numbers.ic" NAME="get_least_numbers Coverage Results" MODIFIED="1584796220759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stack/MinStack.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FindRepeatNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interview/FindRepeatNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2628">
-              <caret line="162" column="4" lean-forward="true" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
+            <state relative-caret-position="72">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSlidingWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stack/MaxSlidingWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#2055#2056#0" expanded="true" />
-                <element signature="e#2090#2091#0" expanded="true" />
-                <element signature="e#3100#3101#0" expanded="true" />
-                <element signature="e#3139#3140#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/easy/sum_zero.java" />
-        <option value="$PROJECT_DIR$/src/easy/compress_string.java" />
         <option value="$PROJECT_DIR$/src/easy/valid_parentheses.java" />
         <option value="$PROJECT_DIR$/src/easy/rectangle_overlop.java" />
         <option value="$PROJECT_DIR$/src/easy/rectangle_overlap.java" />
@@ -123,6 +128,8 @@
         <option value="$PROJECT_DIR$/src/easy/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/draft/DfAddBinary.java" />
         <option value="$PROJECT_DIR$/src/stack/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/interview/FindRepeatNumber.java" />
+        <option value="$PROJECT_DIR$/src/stack/MaxSlidingWindow.java" />
       </list>
     </option>
   </component>
@@ -140,7 +147,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1320" />
     <option name="height" value="784" />
@@ -169,14 +176,20 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,12 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
-    <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompressString" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.MaxSlidingWindow">
     <configuration name="DfClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="draft.DfClimbStairs" />
       <module name="leetcode" />
@@ -233,6 +241,11 @@
     </configuration>
     <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestPalindrome" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MaxSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSlidingWindow" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -290,18 +303,18 @@
     <list>
       <item itemvalue="Application.two_sum" />
       <item itemvalue="Application.DfMergeLists" />
-      <item itemvalue="Application.CompressString" />
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.DfClimbStairs" />
       <item itemvalue="Application.LongestPalindrome" />
+      <item itemvalue="Application.MaxSlidingWindow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSlidingWindow" />
         <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.DfClimbStairs" />
         <item itemvalue="Application.DfMergeLists" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.CompressString" />
       </list>
     </recent_temporary>
   </component>
@@ -389,19 +402,21 @@
       <workItem from="1591241837123" duration="283000" />
       <workItem from="1591242212232" duration="271000" />
       <workItem from="1591242598385" duration="2058000" />
-      <workItem from="1592101967091" duration="5537000" />
+      <workItem from="1592101967091" duration="5678000" />
+      <workItem from="1592368346725" duration="1418000" />
+      <workItem from="1593335651420" duration="789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209804000" />
+    <option name="totallyTimeSpent" value="212152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.3275862" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50230414" side_tool="true" weight="0.2979042" />
       <window_info anchor="right" id="Maven Projects" order="3" />
@@ -410,19 +425,18 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" weight="0.29780564" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49846625" weight="0.3181818" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23133236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23133236" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41379312" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41379312" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49923313" weight="0.3275862" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32934132" />
@@ -436,27 +450,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/MaxSlidingWindow.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="102" />
+      <option name="time" value="103" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/SortArrayByParity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/SearchInsert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -482,13 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/LastRemaining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -792,11 +793,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2628">
           <caret line="162" column="4" lean-forward="true" selection-start-line="162" selection-start-column="4" selection-end-line="162" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/LastRemaining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/FindRepeatNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack/MaxSlidingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#2055#2056#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3139#3140#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

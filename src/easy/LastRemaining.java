@@ -45,16 +45,22 @@ public class LastRemaining {
             list.remove(idx);
             n--;
         }
-
         return list.get(0);
+    }
 
+    public int lastRemaining2(int n, int m) {
+        int ans = 0;
+        for (int i = 2; i <= n; i++) {
+            ans = (ans + m) % i;
+        }
+        return ans;
     }
 
     public static void main(String[] args) {
         int n = 10;
         int m = 3;
         LastRemaining solution = new LastRemaining();
-        int res = solution.lastRemaining(n, m);
+        int res = solution.lastRemaining2(n, m);
         System.out.println(res);
     }
 }
