@@ -1,4 +1,4 @@
-package linkedlist;
+package Icof.linkedlist;
 
 public class DeleteNode {
 

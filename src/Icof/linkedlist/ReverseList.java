@@ -1,5 +1,4 @@
-package linkedlist;
-
+package Icof.linkedlist;
 /**
  * Created by xwx_ on 2020/7/2
  */

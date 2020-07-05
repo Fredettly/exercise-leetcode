@@ -1,4 +1,4 @@
-package linkedlist;
+package Icof.linkedlist;
 
 public class GetKthFromEnd {
 	public ListNode getKthFromEnd(ListNode head, int k) {

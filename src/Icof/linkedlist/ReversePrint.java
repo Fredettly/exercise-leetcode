@@ -1,4 +1,4 @@
-package linkedlist;
+package Icof.linkedlist;
 
 import java.util.Arrays;
 public class ReversePrint {
