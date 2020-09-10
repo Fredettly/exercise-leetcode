@@ -2,6 +2,10 @@ package Icof.array;
 
 import java.util.HashSet;
 
+/**
+ * 数组中重复的数字
+ */
+
 public class FindRepeatNumber {
 
     private HashSet<Integer> set;

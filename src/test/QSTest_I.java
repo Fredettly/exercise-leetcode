@@ -14,7 +14,7 @@ public class QSTest_I {
                 while (i < j && nums[j] >= x)
                     j--;
                 if (i < j)
-                    nums[l++] = nums[j];
+                    nums[i++] = nums[j];
                 //找比x大的，放在高指针位
                 while (i < j && nums[i] < x)
                     i++;

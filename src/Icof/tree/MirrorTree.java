@@ -1,5 +1,6 @@
 package Icof.tree;
 
+
 public class MirrorTree {
 	public TreeNode mirrorTree(TreeNode root) {
 		if (root == null) {
