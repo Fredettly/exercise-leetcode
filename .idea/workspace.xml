@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2adeb26f-cae8-4844-87cd-56dd6684b69b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Icof/dp/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/draft/SudokuDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/acm/HundredMoneyHundredChicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Icof/tree/MirrorTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Icof/tree/MirrorTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/MajorityElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Icof/array/FindRepeatNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icof/array/FindRepeatNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Icof/tree/MirrorTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icof/tree/MirrorTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Icof/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icof/tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/draft/DFBinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/draft/DFBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/draft/DFBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/QSTest_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/QSTest_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/DFBinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/DFBinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/DivingBoardLCCI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Icof/array/FindRepeatNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Icof/array/FindRepeatNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Icof/dp/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Icof/dp/MaxSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Icof/linkedlist/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Icof/linkedlist/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Icof/tree/LevelOrderI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Icof/tree/LevelOrderI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test/QSTest_I.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/test/QSTest_I.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/leetcode/test/QSTest_I.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/leetcode/test/QSTest_I.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/langchao/StoneLIS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/langchao/StoneLIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/langchao/StoneLIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/langchao/StoneLISI.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,19 +28,6 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/leetcode$get_least_numbers.ic" NAME="get_least_numbers Coverage Results" MODIFIED="1584796220759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindRepeatNumber.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Icof/array/FindRepeatNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,6 +131,7 @@
     <option name="width" value="1320" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectId" id="1wfDeEc1ZkUtuFqsKfTNKnnp8ZY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -192,11 +180,16 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="deck&#9;FILE&#9;file://C:/Project/JavaProject/leetcode/src/easy/XofaKindinaDeckofCards.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -204,40 +197,34 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MaxSubArray">
-    <configuration name="ExchangeMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Icof.dp.ExchangeMoney" />
+  <component name="RunManager" selected="Application.HundredMoneyHundredChicken">
+    <configuration name="FindRepeatNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Icof.array.FindRepeatNumber" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Icof.dp.*" />
+          <option name="PATTERN" value="Icof.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Icof.heap.GetLeastNumbers" />
+    <configuration name="HundredMoneyHundredChicken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="acm.HundredMoneyHundredChicken" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Icof.heap.*" />
+          <option name="PATTERN" value="acm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Icof.tree.LowestCommonAncestor" />
@@ -249,6 +236,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Icof.dp.MaxSubArray" />
@@ -260,82 +250,84 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="SudokuDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="draft.SudokuDemo" />
+    <configuration name="StoneLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.langchao.StoneLIS" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="draft.*" />
+          <option name="PATTERN" value="interview.langchao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="two_sum" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="TwoSum" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.GetLeastNumbers" />
-      <item itemvalue="Application.SudokuDemo" />
-      <item itemvalue="Application.ExchangeMoney" />
       <item itemvalue="Application.MaxSubArray" />
       <item itemvalue="Application.LowestCommonAncestor" />
+      <item itemvalue="Application.FindRepeatNumber" />
+      <item itemvalue="Application.StoneLIS" />
+      <item itemvalue="Application.HundredMoneyHundredChicken" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HundredMoneyHundredChicken" />
+        <item itemvalue="Application.StoneLIS" />
+        <item itemvalue="Application.FindRepeatNumber" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.LowestCommonAncestor" />
-        <item itemvalue="Application.ExchangeMoney" />
-        <item itemvalue="Application.SudokuDemo" />
-        <item itemvalue="Application.GetLeastNumbers" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -435,6 +427,7 @@
       <workItem from="1595653979578" duration="5985000" />
       <workItem from="1595906759659" duration="752000" />
       <workItem from="1599742172755" duration="60000" />
+      <workItem from="1628840849968" duration="4047000" />
     </task>
     <servers />
   </component>
@@ -473,18 +466,18 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="117" />
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/easy/Palindrome.java">
