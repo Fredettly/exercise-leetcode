@@ -1,11 +1,11 @@
 package Icof.tree;
 
-
-import java.util.LinkedList;
+import common.TreeNode;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Queue;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+
 public class LevelOrderII {
 	public List<List<Integer>> levelOrder(TreeNode root) {
 		Queue<TreeNode> list = new LinkedList<>();
